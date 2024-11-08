@@ -34,18 +34,44 @@ align-items: center;
 
 .contanier_imagem{
 
-
-
-
-
+ padding:1em;
 
 }
 
+.lista-menu{
 
+display: none;
+position: absolute;
+top: 100%;
+width: 60vw;
+}
 
+.contanier__botao: :checked~.lista-menu{
+    display block;
+}
 
+.lista-menu__titulo,
+.lista-menu_item{
+  padding: 1em;;
+  background-color: brown;
+}
+.lista-menu__titulo{
+  color: black;
+  font-weight: 700;
+}
+ 
+.lista-menu__link{
+ background: blue;
+ -webkit-background-clip: text ;
+ -webkit-text-fill-color: transparent;
+background-clip: text ;
+text-transform: uppercase;
+}
+.contanier__botao{
 
+display: none;
 
+}
 
 
 
