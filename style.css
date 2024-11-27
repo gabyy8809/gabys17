@@ -1,0 +1,18 @@
+@import url("style.css");
+@import url(styles/banner.css);
+@import url(styles/carrossel.css);
+:root{
+  --fonte-principal: "poppins";
+
+}
+body{
+
+background-color: aliceblue;
+font-family: var(--fonte-principal);
+font-size: 16px;
+font-weight: 400;
+}
+
+
+
+
